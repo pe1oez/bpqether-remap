@@ -6,8 +6,8 @@ bpqether-remap maps always bpq0 to ethernet interface p3p1 (or eth0)
 and maps bpq1 to ethernet interface wlp2s0 (or wlan0)
  
 
-Copy the udev rule file 70-bpqether-remap.rules in /etc/udev/rules.d/  
-Copy the script file bpqether-remap.sh in /usr/local/bin/  
+Copy the udev rule file **70-bpqether-remap.rules** in **/etc/udev/rules.d/**  
+Copy the script file **bpqether-remap.sh** in **/usr/local/bin/**  
 
 After rebooting the system see kernel log if the udev rule and this script has changed the mapping.  
 $ dmesg | grep rename | grep bpq  
