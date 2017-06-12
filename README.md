@@ -10,7 +10,7 @@ Copy the udev rule file **70-bpqether-remap.rules** in **/etc/udev/rules.d/**
 Copy the script file **bpqether-remap.sh** in **/usr/local/bin/**  
 
 After rebooting the system see kernel log if the udev rule and this script has changed the mapping.  
-$ dmesg | grep rename | grep bpq  
+$ ```dmesg | grep rename | grep bpq```  
 bpq1: renamed from bpq0
 
 Wietse Ruyg, PE1OEZ
