@@ -1,0 +1,6 @@
+# udev rule file 70-bpqether-remap.rules
+# Remap bpq device to ethernet interface if necessary.
+# Copy this udev rule file in /etc/udev/rules.d/70-bpqether-remap.rules
+# July 2016, february 2017, Wietse Ruyg - PE1OEZ.
+#
+KERNEL=="bpq?", SUBSYSTEM=="net", PROGRAM="/usr/local/bin/bpqether-remap.sh %k", NAME="%c"
