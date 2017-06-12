@@ -14,4 +14,5 @@ After rebooting the system see kernel log if the udev rule and this script has c
 ```$ dmesg | grep rename | grep bpq```  
 bpq1: renamed from bpq0
 
+Have fun!,  
 Wietse Ruyg, PE1OEZ
