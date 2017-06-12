@@ -4,7 +4,7 @@
 # udev rule "/etc/udev/rules.d/70-bpqether-remap.rules":
 # KERNEL=="bpq?", SUBSYSTEM=="net", PROGRAM="/usr/local/bin/bpqether-remap.sh %k", NAME="%c"
 #
-# See kernel log if the udev rule and this script has changed the mapping.
+# After rebooting the system see kernel log if the udev rule and this script has changed the mapping.
 # $ dmesg | grep rename | grep bpq
 # bpq1: renamed from bpq0
 #
