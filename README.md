@@ -8,7 +8,7 @@ and maps bpq1 to ethernet interface wlp2s0 (or wlan0)
 Download: ```$ git clone https://github.com/pe1oez/bpqether-remap.git```  
 Copy the udev rule file **70-bpqether-remap.rules** in **/etc/udev/rules.d/**  
 Copy the script file **bpqether-remap.sh** in **/usr/local/bin/**  
-Change the *case* statment in the script file **bpqether-remap.sh** if you want an other mapping.  
+Change the *case* statment in the script file **bpqether-remap.sh** if you wants an other mapping.  
 
 After rebooting the system see kernel log if the udev rule and this script has changed the mapping.  
 ```$ dmesg | grep rename | grep bpq```  
