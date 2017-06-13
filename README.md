@@ -2,7 +2,7 @@
 Remap bpq device to ethernet interface if necessary.
 
 The problem is that BPQETHER maps randomly on each bootup a particular bpq interface to an ethernet interface.      
-bpqether-remap maps always bpq0 to ethernet interface eth0 (or enp1s0, p3p1)  
+Bpqether-remap maps always bpq0 to ethernet interface eth0 (or enp1s0, p3p1)  
 and maps bpq1 to ethernet interface wlan0 (or wlp2s0)
  
 Download: ```$ git clone https://github.com/pe1oez/bpqether-remap.git```  
